@@ -238,7 +238,7 @@
 
   /* Step 0: Welcome */
   function buildObStep0(content, nav) {
-    content.appendChild(el('div', { className: 'ob-monogram', textContent: 'CWTD' }));
+    content.appendChild(el('div', { className: 'ob-monogram', textContent: 'WTD' }));
     content.appendChild(el('div', { className: 'ob-title', textContent: "Chana's Win The Day" }));
     content.appendChild(el('div', { className: 'ob-subtitle', textContent: 'Track the daily actions that drive real results' }));
     nav.appendChild(el('button', {
